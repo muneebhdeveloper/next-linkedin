@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 2px solid var(--color-white);
 
   &:hover {
     border-bottom: 2px solid var(--color-text-light);

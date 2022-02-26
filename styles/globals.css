@@ -2,8 +2,11 @@
   --light-gray: #f3f2ef;
   --light-gray-2: #eef3f8;
   --color-white: #ffffff;
+  --color-text: #191919;
+  --color-text-light: #38434f;
   --border-radius-sm: 6px;
   --container-xl-max-width: 1128px;
+  --navbar-height: 56px;
 }
 
 html,
@@ -26,5 +29,11 @@ a {
 }
 
 * {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
 }
